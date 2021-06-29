@@ -71,7 +71,7 @@ if(segment){
         createTransaction()
     }
 }
-    },[segment])
+},[segment])
 
     const selectedCategories = formData.type === 'Income' ? incomeCategories : expenseCategories
     return (
